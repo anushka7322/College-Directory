@@ -1,0 +1,42 @@
+/* FacultyPage.css */
+
+.faculty-table-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.faculty-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.faculty-table thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.faculty-table th, .faculty-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.faculty-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.faculty-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.faculty-table img {
+    max-width: 100%;
+    height: auto;
+}
